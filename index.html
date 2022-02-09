@@ -21,19 +21,20 @@
     </style>
 </head>
 
-<body class="overflow-hidden bg-[#19a2ae] flex justify-center items-center h-screen">
+<body class="overflow-hidden bg-[#19a2ae] flex justify-center items-center w-screen h-screen relative">
 
 
     <!-- Background Images -->
-    <div class="-z-10">
-        <img class=" top-[-30rem] left-[-16rem] scale-[.9] absolute " src="images/bg-pattern-top.svg" alt="top-gradient">
-        <img class=" bottom-[-37rem] right-[-15rem] scale-[.9] absolute" src="images/bg-pattern-bottom.svg" alt="top-gradient">
-    </div>
+
+    <img class=" sm:top-[-30rem] sm:left-[-16rem] sm:scale-[.9]  top-10 right-48 absolute " src="images/bg-pattern-top.svg" alt="top-gradient">
+    <img class=" sm:bottom-[-37rem] sm:right-[-14rem] sm:scale-[.9] bottom-10 left-48  absolute" src="images/bg-pattern-bottom.svg" alt="top-gradient">
 
     <!-- Card -->
     <div class=" bg-white rounded-2xl shadow-2xl scale-75 flex flex-col justify-center items-center overflow-hidden">
-        <img class="w-[29rem] -top-[18rem] " src="images/bg-pattern-card.svg" alt="">
-        <img class="rounded-full w-[7.2rem] top-[8rem] absolute ring-white ring-4 " src="images/image-victor.jpg" alt="">
+
+        <img class="w-[29rem] h-[12rem] -top-[18rem] " src="images/bg-pattern-card.svg" alt="">
+        <img class="rounded-full w-[7.7rem] top-[7.7rem] absolute ring-white ring-4 " src="images/image-victor.jpg" alt="">
+
 
         <!-- Profile name -->
         <div class="flex flex-col items-center bottom-4 pt-[5rem] gap-2 pb-6">
@@ -42,8 +43,8 @@
         </div>
 
         <!-- Data -->
-        <hr class="w-[29rem] pb-2">
-        <div class="flex text-center gap-[5rem] p-4 pb-6">
+        <hr class="w-[29rem] pb-2 ">
+        <div class="flex text-center gap-[5rem] p-4 pb-10">
             <div class="flex flex-col">
                 <div>80K</div>
                 <div class="font-normal text-[#6a6f81] text-sm">Followers</div>
