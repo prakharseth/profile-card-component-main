@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.jpg">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <title>Profile card component</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Kumbh Sans;
+            color: #2d3248;
+            font-weight: 700;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body class="overflow-hidden bg-[#19a2ae] flex justify-center items-center h-screen">
+
+
+    <!-- Background Images -->
+    <div class="-z-10">
+        <img class=" top-[-30rem] left-[-16rem] scale-[.9] absolute " src="images/bg-pattern-top.svg" alt="top-gradient">
+        <img class=" bottom-[-37rem] right-[-15rem] scale-[.9] absolute" src="images/bg-pattern-bottom.svg" alt="top-gradient">
+    </div>
+
+    <!-- Card -->
+    <div class=" bg-white rounded-2xl shadow-2xl scale-75 flex flex-col justify-center items-center overflow-hidden">
+        <img class="w-[29rem] -top-[18rem] " src="images/bg-pattern-card.svg" alt="">
+        <img class="rounded-full w-[7.2rem] top-[8rem] absolute ring-white ring-4 " src="images/image-victor.jpg" alt="">
+
+        <!-- Profile name -->
+        <div class="flex flex-col items-center bottom-4 pt-[5rem] gap-2 pb-6">
+            <div> Victor Crest <span class="font-normal text-[#6a6f81] "> 26</span></div>
+            <div class="font-normal text-[#6a6f81] text-lg"> London</div>
+        </div>
+
+        <!-- Data -->
+        <hr class="w-[29rem] pb-2">
+        <div class="flex text-center gap-[5rem] p-4 pb-6">
+            <div class="flex flex-col">
+                <div>80K</div>
+                <div class="font-normal text-[#6a6f81] text-sm">Followers</div>
+            </div>
+
+            <div class="flex flex-col">
+                <div> 803K</div>
+                <div class="font-normal text-[#6a6f81] text-sm"> Likes
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div> 1.4K
+                </div>
+                <div class="font-normal text-[#6a6f81] text-sm"> Photos
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
